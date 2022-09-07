@@ -1,6 +1,7 @@
 import React, {FunctionComponent} from 'react'
 import {useGeoLocation} from "./lib"
 import "./index.css"
+import {GoogleMap} from "./components/GoogleMap";
 
 interface OwnProps {
 }
@@ -90,6 +91,10 @@ const App: FunctionComponent<Props> = (props) => {
                         </tr>
                         </tbody>
                     </table>
+                    <GoogleMap center={{
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude,
+                    }}/>
                 </>
             }
 
