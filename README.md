@@ -1,7 +1,7 @@
 # React Use Geolocation
 
 ## Introduction
-A react hook to use navigator.geolocation browser API [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation)
+A react hook to use navigator.geolocation browser API
 
 ## Setup
 ```shell
