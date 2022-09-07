@@ -1,4 +1,4 @@
-# React Use Geolocation
+# React useGeolocation
 
 ## Introduction
 A react hook to use navigator.geolocation browser API
