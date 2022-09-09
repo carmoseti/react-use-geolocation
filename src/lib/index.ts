@@ -1,6 +1,6 @@
 import {useCallback, useEffect, useState} from "react"
 
-type UseGeoLocation = {
+export type UseGeoLocation = {
     getCurrentPosition: (successCallback ?: PositionCallback, errorCallback ?: PositionErrorCallback, options ?: PositionOptions) => void
     isAvailable: boolean
     isWatchingPosition: boolean
